@@ -1,7 +1,7 @@
-public class Main3 { 
-    /** 
+ /** 
     ＊hello worldを表示するクラスです 
     */
+public class Main3 { 
     public static void main(String[] args) {
         /*このプログラムは
          * Hello, World!を表示します
