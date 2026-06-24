@@ -1,9 +1,9 @@
 public class Main6 {
     public static void main(String[] args) {
-        int pricebefore = 1000;
-        System.out.println("変更前の価格:" + pricebefore);
-        int priceafter= 1200;
-        System.out.println("変更後の価格:" + priceafter);
+        int price = 1000;
+        System.out.println("変更前の価格: " + price +"円");
+        price = 1200;
+        System.out.println("変更後の価格: " + price +"円");
     }
     
 }
