@@ -6,14 +6,13 @@ public class Main6 {
         System.out.print("現在の経験値を入力してください: ");
         String experienceString = scanner.nextLine();
         int level = Integer.parseInt(experienceString);
-        
+
         double exp = (level * 25 /100) + level;
         int newexp = (int) exp;
         System.out.println("ボーナス後の経験値：" + newexp);
-
-
-
-
+        
+        scanner.close();
+        
     }
     
 }
