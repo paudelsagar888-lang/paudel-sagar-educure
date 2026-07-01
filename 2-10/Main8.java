@@ -19,6 +19,7 @@ public class Main8 {
                 break;
             case 6:
                 System.out.println("D");
+                break;
             default:
                 System.out.println("F");
                 break;
