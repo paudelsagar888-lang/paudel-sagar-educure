@@ -1,12 +1,13 @@
 public class Main8 {
     public static void main(String[] args) {
-        int score = 90;
-        if (score >=0 && score <=100)
-        score = score/10;
-        
+        int score = 50;
+        if (score <0 || score >100){
+            System.out.println("F");
+        } else {
+            score = score/10;
+
         switch (score){
             case 10:
-                break;
             case 9:
                 System.out.println("A");
                 break;
@@ -19,8 +20,9 @@ public class Main8 {
             case 6:
                 System.out.println("D");
             default:
-                System.out.println("E");
+                System.out.println("F");
                 break;
+            }
         }
     }
 }
