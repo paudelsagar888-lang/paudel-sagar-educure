@@ -3,7 +3,7 @@ public class Main2 {
         int score = 65;
         if (score <0 || score >100){
             System.out.println("無効な点数です。");
-        } else if (score>60){
+        } else if (score>=60){
             System.out.println("合格");
         } else {
             System.out.println("不合格");
