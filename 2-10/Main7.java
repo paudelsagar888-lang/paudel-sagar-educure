@@ -8,7 +8,7 @@ public class Main7{
                 if (pressCount==1){
                     System.out.println("A");
                 } else if (pressCount==2) {
-                    System.out.println("b");
+                    System.out.println("B");
                 } else {
                     System.out.println("C");
                 }
